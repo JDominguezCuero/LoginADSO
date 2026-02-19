@@ -145,12 +145,6 @@ if (isset($_GET['inv']) && $_GET['inv'] == 1 && isset($_GET['error'])) {
 
                 </div>
 
-                <div style="margin-top: 30px;">
-                    <button class="btn btn-secondary" style="background-color: grey">
-                        Exportar Excel
-                    </button>
-                </div>
-
             </div>
         </main>
     </div>

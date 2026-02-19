@@ -330,19 +330,19 @@ require_once(__DIR__ . '/../config/config.php');
                     <h2>Nuestro Equipo de Desarrollo</h2>
                     <div class="team-members">
                         <div class="team-member-card" data-aos="fade-up" data-aos-delay="200">
-                            <img src="assets/images/equipo-miembro-2.jpg" alt="Foto de Miembro del Equipo 2">
+                            <img src="assets/images/equipo-miembro-3.png" alt="Foto de Miembro del Equipo 2">
                             <h3>Juan Santos</h3>
-                            <p class="role">Desarrolladora Frontend / Diseñador UX</p>
+                            <p class="role">Desarrollador Frontend / Diseñador UX</p>
                             <p>Responsable de la interfaz de usuario, garantizando una experiencia intuitiva y visualmente atractiva para todos nuestros usuarios.</p>
                         </div>
                         <div class="team-member-card" data-aos="fade-up" data-aos-delay="100">
-                            <img src="assets/images/equipo-miembro-1.jpg" alt="Foto de Miembro del Equipo 1">
+                            <img src="assets/images/equipo-miembro-1.png" alt="Foto de Miembro del Equipo 1">
                             <h3>José Domínguez</h3>
                             <p class="role">Líder de Proyecto / Desarrollador Backend</p>
                             <p>Encargado de la arquitectura de la base de datos y la lógica del servidor, asegurando un rendimiento óptimo y seguro de la plataforma.</p>
                         </div>
                         <div class="team-member-card" data-aos="fade-up" data-aos-delay="300">
-                            <img src="assets/images/equipo-miembro-3.jpg" alt="Foto de Miembro del Equipo 3">
+                            <img src="assets/images/equipo-miembro-2.png" alt="Foto de Miembro del Equipo 3">
                             <h3>Jasbleidy Morales</h3>
                             <p class="role">Especialista en Simulación y Datos</p>
                             <p>Experto en el modelado de datos para la simulación ganadera y la integración de funcionalidades analíticas avanzadas del sistema.</p>
