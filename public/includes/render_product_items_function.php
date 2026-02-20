@@ -72,12 +72,19 @@ function renderProductItems(array $products, bool $show_old_price = false): void
                 <?php else: ?>
                     <p class="seller-info">Vendedor no disponible</p>
                 <?php endif; ?>
-                <a  
-                   class="hm-btn btn-primary uppercase contactar-vendedor" 
-                   data-id-vendedor="<?= $id_usuario_vendedor ?>" 
-                   data-id-producto="<?= $id_producto ?>">
-                   Contactar Con El Vendedor
-                </a>
+
+                <?php if (isset($_SESSION['usuario'])) : ?>
+                        <a 
+                            class="hm-btn btn-primary uppercase contactar-vendedor" 
+                            data-id-vendedor="<?= $id_usuario_vendedor ?>" 
+                            data-id-producto="<?= $id_producto ?>">
+                            Contactar Con El Vendedor
+                        </a>   
+                <?php else: ?>
+                        <a href="<?= BASE_URL ?>/modules/auth/views/autenticacion.php" class="hm-btn btn-primary uppercase">
+                            Iniciar Sesión para Contactar al Vendedor
+                        </a>                  
+                <?php endif; ?>
 
             </div>
         </div>

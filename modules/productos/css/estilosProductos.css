@@ -1,7 +1,5 @@
 /* MODAL: Centrado vertical */
 .modal.fade .modal-dialog {
-  transform: translate(0, -50%);
-  top: 50%;
   margin: 0 auto;
   min-height: calc(100vh - 60px);
   display: flex;

@@ -43,13 +43,6 @@ if (!$isUserLoggedIn) {
 
                 <div class="flex items-center space-x-4"> 
                     
-                    <div class="hm-icon-cart">
-                        <a href="#">
-                            <i class="las la-shopping-cart"></i>
-                            <span>0</span>
-                        </a>
-                    </div>
-                    
                     <button class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200 flex items-center justify-center -mt-2" onclick="toggleDarkMode()">
                         <i class="las la-moon text-3xl text-gray-800 dark:text-gray-200"></i>
                     </button>
